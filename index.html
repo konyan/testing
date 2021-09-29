@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Second Week</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <h1>HA HAHAHAHA</h1>
+    <p title="hello">Hello World</p>
+    <form action="#">
+      <fieldset>
+        <legend>Personalia:</legend>
+        <label for="username">Username : </label>
+        <input type="text" name="username" />
+        <br />
+        <label for="password">Password :</label>
+        <input type="password" name="password" id="password" />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" />
+        <br />
+        <label for="phone">Phone</label>
+        <input type="" name="phone" id="phone" minlength="9" min="1" step="1" />
+        <br />
+        <label for="date">Date</label>
+        <input
+          type="date"
+          name="date"
+          id="date"
+          min="2021-08-26"
+          max="2021-08-28"
+        />
+      </fieldset>
+
+      <br />
+      <fieldset>
+        <legend>First:</legend>
+        <label for="datetime">Date Time</label>
+        <input type="datetime" name="datetime" id="datetime" />
+        <br />
+        <label for="file">File Upload</label>
+        <input type="file" name="file" id="file" accept="video/*" />
+        <br />
+        <label for="file">File Upload</label>
+        <input type="file" name="file" id="file" accept="video/*" />
+        <br />
+        <p>Second :</p>
+        <label for="male">Male</label>
+        <input type="radio" name="male" id="male" value="male" />
+        <label for="female">Female</label>
+        <input type="radio" name="female" id="female" value="female" />
+
+        <br />
+        <p>Select Age</p>
+        <input type="checkbox" name="opt-1" id="opt-1" value="0-25" />
+        <label for="opt-1">0 - 25 age</label>
+        <input type="checkbox" name="opt-1" id="opt-2" value="0-25" />
+        <label for="opt-2">25 - 50 age</label>
+        <input type="checkbox" name="opt-1" id="opt-3" value="0-25" />
+        <label for="opt-3">50 - 75 age</label>
+        <input type="checkbox" name="opt-1" id="opt-4" value="0-25" />
+        <label for="opt-4">75 - 100 age</label>
+        <br />
+        <label for="textarea">Address</label>
+        <br />
+        <textarea rows="5" cols="30" autofocus readonly></textarea>
+        <br />
+        <label for="select">Select your programming</label>
+        <br />
+        <select name="select" id="select">
+          <option value="1">Javascript</option>
+          <option value="2">Java</option>
+          <option value="3" selected="selected">Python</option>
+          <option value="4">C++</option>
+        </select>
+        <input type="button" value="hello World" />
+      </fieldset>
+      <button type="submit">SUBMIT</button>
+    </form>
+    <button type="button">NOT SUMMIT</button>
+    
+  </body>
+</html>
