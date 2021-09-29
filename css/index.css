@@ -1,0 +1,223 @@
+@import url('../fonts/Poppins-Black.ttf');
+@import url('../fonts/Poppins-Bold.ttf');
+@import url('../fonts/Poppins-ExtraLight.ttf');
+@import url('../fonts/Poppins-MediumItalic.ttf');
+@import url('../fonts/Poppins-Regular.ttf');
+@import url('../fonts/Poppins-SemiBold.ttf');
+@import url('../fonts/Poppins-Thin.ttf');
+@import url('../fonts/Poppins-ThinItalic.ttf');
+
+@font-face {
+  font-family: Morning;
+  src: url(../fonts/Morning\ Glory\ Font.ttf);
+}
+
+:root {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  background-color: rgba(0, 0, 0, 0.1);
+  /* padding-left: 4rem; */
+  /* padding-right: 4rem; */
+}
+
+body {
+  margin: auto;
+  font-size: 16px;
+  background-color: transparent;
+  width: 80%;
+  height: 100%;
+}
+
+#logo {
+  background-color: white;
+  display: block;
+}
+
+.logo {
+  margin: 0.8rem 0 0.8rem 0.8rem;
+}
+/* Basic Layout */
+
+#navigation {
+  background-color: rgba(0, 0, 0, 0.9);
+  display: block;
+}
+
+#navigation ul {
+  margin: 0rem 0rem 1rem 0rem;
+  padding: 0;
+  position: relative;
+}
+
+#navigation ul li {
+  display: inline-block;
+  padding: 1rem;
+  color: white;
+}
+
+#navigation ul li span {
+  width: 0.9rem;
+  height: 0.9rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+}
+
+#navigation ul li:last-child {
+  /* margin-left: 4rem; */
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#image-wrapper {
+  position: relative;
+}
+
+#image-wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#image-wrapper h2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* transform: translateY(-50%); */
+}
+
+#information {
+  display: block;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#information section {
+  width: 30%;
+  text-align: left;
+  background-color: white;
+  margin-right: 3%;
+  padding-left: 1%;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+#information section h3 {
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 500;
+}
+
+#information section p {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 300;
+  padding-right: 0.4rem;
+}
+
+.last-info {
+  margin: 0 !important;
+}
+
+#gallery {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+#gallery h3 {
+  font-family: Morning, sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin: 1rem;
+  text-transform: uppercase;
+}
+
+.gallery-container img {
+  width: 24.5%;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+}
+
+footer {
+  display: block;
+  position: relative;
+  margin-top: 2rem;
+  background-color: white;
+  padding: 1rem 0 1rem 0;
+}
+
+footer p {
+  display: inline-block;
+  width: 48%;
+  margin: 0;
+  padding: 0;
+  margin-left: 0.4rem;
+}
+
+footer p:last-child {
+  text-align: right;
+  margin-right: 0.4rem;
+}
+
+#container {
+  background-color: white;
+  padding: 1rem;
+  position: relative;
+}
+
+.container__a {
+  display: inline-block;
+  width: 65%;
+}
+
+.container__b {
+  display: inline-block;
+  width: 28%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 4%;
+  bottom: 0;
+  margin: 0 1rem 0 1rem;
+}
+
+.container__b h3 {
+  font-size: 1.4rem;
+  font-family: Morning, sans-serif;
+}
+
+.container__b ul {
+  background-color: rgba(44, 43, 43, 0.1);
+  margin: 0;
+  padding: 0;
+}
+
+.container__b ul li {
+  list-style-type: none;
+  padding: 0.6rem;
+}
+
+.floating {
+  position: fixed;
+  top: 4%;
+  right: 4%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: darkblue;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  padding: 0.4rem;
+}
